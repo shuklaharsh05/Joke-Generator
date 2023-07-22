@@ -1,0 +1,74 @@
+body{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+background:rgba(47, 156, 219, 0.651);
+}
+
+h1{
+    font-size: 40px;
+margin-top: 18%;
+font-weight: bold;
+color: rgb(206, 14, 94);
+}
+.box{
+    margin: 0 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.select{
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(206, 14, 94);
+}
+.select:hover{
+    color: #fff;
+    background-color:rgba(47, 156, 219, 0.651) ;
+}
+
+.category{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(206, 14, 94);
+}
+.btn{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(105, 20, 202);
+    background: #fff;
+    border: 1px solid white;
+    border-radius: 30px;
+    height: 55px;
+    width: 90px;
+}
+.btn:hover{
+    color: #fff;
+    background-color: rgba(47, 156, 219, 0.651);
+}
+
+.joke{
+    color: rgb(206, 14, 94);
+    font-size: 20px;
+}
+.container {
+    margin-top: 20px;
+  }
+  
+  label, select, button {
+    margin: 10px;
+  }
+  
+  #joke {
+    margin-top: 20px;
+    font-weight: bold;
+  }
